@@ -1,0 +1,48 @@
+body {
+    background-color: #AAEAF6;
+    display: flex;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    height: auto;
+    width: 350px;
+    padding: 10px;
+}
+
+div {
+    margin: 10px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+span, h1 {
+    margin: 20px;
+}
+
+span {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+
